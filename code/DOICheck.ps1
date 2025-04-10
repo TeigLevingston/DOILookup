@@ -1,4 +1,8 @@
-# PowerShell script to mimic form submission and URL validation
+# Import the System.Windows.Forms namespace for creating forms and controls
+Add-Type -AssemblyName System.Windows.Forms
+
+# Import the System.Drawing namespace for colors, sizes, and fonts
+Add-Type -AssemblyName System.Drawing
 
 # Function to validate a DOI URL
 function Test-DOI {
